@@ -7,18 +7,21 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="generator" content="Kaustav Roy">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="font-awesome.min.css" rel="stylesheet">
-<link href="TTEC_CLENT_APP.css?v=2" rel="stylesheet">
-<link href="index.css?v=2" rel="stylesheet">
+<link href="TTEC_CLENT_APP.css?v=3" rel="stylesheet">
+<link href="index.css?v=3" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
-<script src="index.js?v=2"></script>
+<script src="util.min.js"></script>
+<script src="modal.min.js"></script>
+<script src="wb.validation.min.js"></script>
+<script src="wwb16.min.js"></script>
+<script src="index.js?v=3"></script>
 </head>
 <body>
    <div id="wb_indexLayoutGrid1">
       <div id="indexLayoutGrid1">
          <div class="row">
             <div class="col-1">
-               <iframe name="indexInlineFrame1" id="indexInlineFrame1" src="https://script.google.com/macros/s/AKfycbwMQqLFZu6ZaynwpWQTuv9UTzc6XkaBUhpsIGyCtaKJHsv1klQwyJZJaj-7FalspkVX/exec" scrolling="no"></iframe>
+               <iframe name="indexInlineFrame1" id="indexInlineFrame1" src="https://script.google.com/macros/s/AKfycbyIIDnxRR_WvwSf-4YDn5NFq_h8Xlb1-84_NmnC8pJhyBsv0MYWkfnKrBCI2Wndg9xH/exec" scrolling="no"></iframe>
             </div>
          </div>
       </div>
@@ -28,7 +31,7 @@
          <div class="row">
             <div class="col-1">
                <div id="wb_indexText1">
-                  <span id="wb_uid0"><strong>The Third Eye Creation Website</strong></span>
+                  <span id="wb_uid0"><strong>Or,</strong></span>
                </div>
             </div>
          </div>
@@ -38,24 +41,26 @@
       <div id="indexLayoutGrid3">
          <div class="row">
             <div class="col-1">
-               <div id="wb_indexIconFont1">
-                  <a href="https://thethirdeyecreation.com/"><div id="indexIconFont1"><i class="fa fa-globe"></i></div></a>
-               </div>
+               <input type="submit" id="indexButton1" onclick="$('#indexLayer2').modal('show');return false;" name="" value="Register">
             </div>
          </div>
       </div>
    </div>
-   <div id="wb_indexLayoutGrid4">
-      <div id="indexLayoutGrid4">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_indexText2">
-                  <span id="wb_uid1"><strong><a href="https://thethirdeyecreation.com/">https://thethirdeyecreation.com</a></strong></span>
-               </div>
+   <form name="Registration Form TTEC-CLIENT" method="post" action="https://script.google.com/macros/s/AKfycbyfuggP41acFdg-IEoNbuMac66MkcmjMCjghfH4RSck20toIfay40sfjp7ekp00IvJ7Qw/exec" enctype="multipart/form-data" id="indexLayer2" class="modal fade" data-keyboard="false" role="dialog">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-body">
+               <input type="text" id="indexEditbox2" name="Full Name" value="" spellcheck="false" required pattern="[A-Za-zÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ \t\r\n\f]*$" placeholder="Your Full Name">
+               <div id="wb_indexEditbox3">
+                  <input type="number" id="indexEditbox3" name="Mobile Number" value="" maxlength="10" spellcheck="false" placeholder="Your Mobile Number"></div>
+               <input type="text" id="indexEditbox4" name="Address" value="" spellcheck="false" required placeholder="Your Address">
+               <input type="submit" id="indexButton2" name="" value="Register">
+               <div id="wb_indexText3">
+                  <span id="wb_uid1"><strong><u>Registration</u></strong></span></div>
+               <input type="button" id="indexButton3" onclick="$('#indexLayer2').modal('hide');return false;" name="" value="No Thanks">
             </div>
          </div>
       </div>
-   </div>
-   <div id="preloader"></div>
+   </form>
 </body>
 </html>
