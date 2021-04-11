@@ -217,7 +217,7 @@ input:focus, textarea:focus, select:focus
 #page2LayoutGrid3
 {
    box-sizing: border-box;
-   padding: 100px 15px 0px 15px;
+   padding: 120px 15px 0px 15px;
    margin-right: auto;
    margin-left: auto;
 }

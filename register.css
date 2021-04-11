@@ -207,7 +207,7 @@ input:focus, textarea:focus, select:focus
 {
    position: relative;
    width: 331px;
-   height: 424px;
+   height: 383px;
 }
 #indexLayer2 .close
 {
@@ -431,26 +431,6 @@ input:focus, textarea:focus, select:focus
    -webkit-appearance: none;
    margin: 0;
 }
-#indexButton3
-{
-   line-height: 15px;
-   text-align: center;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #FFC000;
-   border-radius: 4px;
-   background-color: #FF0042;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 9.3px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0;
-}
 #indexEditbox1
 {
    position: absolute;
@@ -512,15 +492,6 @@ input:focus, textarea:focus, select:focus
    width: 98px;
    height: 35px;
    z-index: 6;
-}
-#indexButton3
-{
-   position: absolute;
-   left: 131px;
-   top: 377px;
-   width: 63px;
-   height: 15px;
-   z-index: 7;
 }
 #wb_uid0
 {
