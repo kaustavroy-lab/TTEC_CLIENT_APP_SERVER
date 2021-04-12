@@ -1,7 +1,11 @@
 body
 {
    background-color: #FFFFFF;
-   background-image: url(images/log-in_bkgrnd.png);
+   background-image: url(bg.jpeg);
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
