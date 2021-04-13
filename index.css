@@ -1,7 +1,7 @@
 body
 {
    background-color: #FFFFFF;
-   background-image: url(bg1.jpeg);
+   background-image: url(bg4.jpeg);
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -16,12 +16,12 @@ body
 }
 a
 {
-   color: #FF0042;
+   color: #000000;
    text-decoration: none;
 }
 a:active
 {
-   color: #000000;
+   color: #FF0042;
 }
 a:hover
 {
@@ -278,10 +278,10 @@ input:focus, textarea:focus, select:focus
    text-align: center;
    text-decoration: none;
    vertical-align: top;
-   border: 2px solid #0563C1;
+   border: 2px solid #FFFFFF;
    border-radius: 10px;
    background-color: #008052;
-   background-image: none;
+   background: linear-gradient(to top, #008052 0%, #000000 100%);
    color: #FFFFFF;
    box-shadow: 0px 0px 5px #7F7F7F;
    font-family: "Reggae One";
@@ -367,10 +367,10 @@ input:focus, textarea:focus, select:focus
    text-align: center;
    text-decoration: none;
    vertical-align: top;
-   border: 2px solid #FFC000;
+   border: 2px solid #FFFFFF;
    border-radius: 10px;
-   background-color: #FF8000;
-   background-image: none;
+   background-color: #000000;
+   background: linear-gradient(to top, #000000 0%, #FF8000 100%);
    color: #FFFFFF;
    box-shadow: 0px 0px 5px #7F7F7F;
    font-family: "Reggae One";
@@ -393,7 +393,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_page2Text2
 {
-   color: #0000FF;
+   color: #005280;
    font-family: Courgette;
    font-weight: normal;
    font-size: 20px;
@@ -422,7 +422,7 @@ width: 100%;}
    color: #000000;
    font-family: Arial;
    font-weight: normal;
-   font-size: 13px;
+   font-size: 11px;
 }
 #wb_page2Text3 div
 {
@@ -448,13 +448,39 @@ width: 100%;}
    color: #000000;
    font-family: Arial;
    font-weight: normal;
-   font-size: 13px;
+   font-size: 11px;
 }
 #wb_page2Text1 div
 {
    text-align: center;
 }
 #wb_page2Text1
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+width: 100%;}
+#wb_indexText1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_indexText1
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 11px;
+}
+#wb_indexText1 div
+{
+   text-align: center;
+}
+#wb_indexText1
 {
    display: block;
    margin: 0;
@@ -480,25 +506,25 @@ width: 100%;}
 #page2LayoutGrid2
 {
    box-sizing: border-box;
-   padding: 0px 15px 20px 15px;
+   padding: 0px 8px 10px 8px;
    margin-right: auto;
    margin-left: auto;
 }
 #page2LayoutGrid2 > .row
 {
-   margin-right: -15px;
-   margin-left: -15px;
+   margin-right: -8px;
+   margin-left: -8px;
 }
-#page2LayoutGrid2 > .row > .col-1, #page2LayoutGrid2 > .row > .col-2
+#page2LayoutGrid2 > .row > .col-1, #page2LayoutGrid2 > .row > .col-2, #page2LayoutGrid2 > .row > .col-3
 {
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 8px;
+   padding-left: 8px;
    position: relative;
 }
-#page2LayoutGrid2 > .row > .col-1, #page2LayoutGrid2 > .row > .col-2
+#page2LayoutGrid2 > .row > .col-1, #page2LayoutGrid2 > .row > .col-2, #page2LayoutGrid2 > .row > .col-3
 {
    float: left;
 }
@@ -507,7 +533,7 @@ width: 100%;}
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 50%;
+   width: 33.33333333%;
    text-align: center;
 }
 #page2LayoutGrid2 > .row > .col-2
@@ -515,7 +541,15 @@ width: 100%;}
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 50%;
+   width: 33.33333333%;
+   text-align: center;
+}
+#page2LayoutGrid2 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 33.33333333%;
    text-align: center;
 }
 #page2LayoutGrid2:before,
@@ -533,7 +567,7 @@ width: 100%;}
 }
 @media (max-width: 0px)
 {
-#page2LayoutGrid2 > .row > .col-1, #page2LayoutGrid2 > .row > .col-2
+#page2LayoutGrid2 > .row > .col-1, #page2LayoutGrid2 > .row > .col-2, #page2LayoutGrid2 > .row > .col-3
 {
    float: none;
    width: 100% !important;
@@ -544,6 +578,10 @@ width: 100%;}
    color: #000000;
 }
 #wb_uid2
+{
+   color: #000000;
+}
+#wb_uid3
 {
    color: #000000;
 }
@@ -570,5 +608,5 @@ width: 100%;}
 }
 #wb_uid0
 {
-   color: #0000FF;
+   color: #005280;
 }
