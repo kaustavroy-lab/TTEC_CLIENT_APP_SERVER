@@ -1,7 +1,7 @@
 body
 {
-   background-color: #FFFFFF;
-   background-image: url(fbg1.jpeg);
+   background-color: #D7B740;
+   background-image: url(images/TTEC_App_Background.jpg);
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -272,14 +272,21 @@ input:focus, textarea:focus, select:focus
    width: 100% !important;
 }
 }
+#wb_page2LayoutGrid3:focus
+{
+   -webkit-transform: rotate(0deg) scale(1.1,1.1) ;
+   transform: rotate(0deg) scale(1.1,1.1) ;
+   -webkit-transition: -webkit-transform 500ms linear 0ms;
+   transition: transform 500ms linear 0ms;
+}
 #page2Button2
 {
    line-height: 37px;
    text-align: center;
    text-decoration: none;
    vertical-align: top;
-   border: 2px solid #FFFFFF;
-   border-radius: 10px;
+   border: 2px solid #000000;
+   border-radius: 50px;
    background-color: #008052;
    background: linear-gradient(to top, #008052 0%, #000000 100%);
    color: #FFFFFF;
@@ -367,8 +374,8 @@ input:focus, textarea:focus, select:focus
    text-align: center;
    text-decoration: none;
    vertical-align: top;
-   border: 2px solid #FFFFFF;
-   border-radius: 10px;
+   border: 2px solid #000000;
+   border-radius: 50px;
    background-color: #000000;
    background: linear-gradient(to top, #000000 0%, #FF8000 100%);
    color: #FFFFFF;
@@ -393,7 +400,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_page2Text2
 {
-   color: #005280;
+   color: #000000;
    font-family: Courgette;
    font-weight: normal;
    font-size: 20px;
@@ -506,22 +513,22 @@ width: 100%;}
 #page2LayoutGrid2
 {
    box-sizing: border-box;
-   padding: 0px 8px 10px 8px;
+   padding: 0px 0px 10px 0px;
    margin-right: auto;
    margin-left: auto;
 }
 #page2LayoutGrid2 > .row
 {
-   margin-right: -8px;
-   margin-left: -8px;
+   margin-right: 0;
+   margin-left: 0;
 }
 #page2LayoutGrid2 > .row > .col-1, #page2LayoutGrid2 > .row > .col-2, #page2LayoutGrid2 > .row > .col-3
 {
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
-   padding-right: 8px;
-   padding-left: 8px;
+   padding-right: 0px;
+   padding-left: 0px;
    position: relative;
 }
 #page2LayoutGrid2 > .row > .col-1, #page2LayoutGrid2 > .row > .col-2, #page2LayoutGrid2 > .row > .col-3
@@ -533,7 +540,7 @@ width: 100%;}
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 33.33333333%;
+   width: 41.66666667%;
    text-align: center;
 }
 #page2LayoutGrid2 > .row > .col-2
@@ -541,7 +548,7 @@ width: 100%;}
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 33.33333333%;
+   width: 16.66666667%;
    text-align: center;
 }
 #page2LayoutGrid2 > .row > .col-3
@@ -549,7 +556,7 @@ width: 100%;}
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 33.33333333%;
+   width: 41.66666667%;
    text-align: center;
 }
 #page2LayoutGrid2:before,
@@ -608,5 +615,5 @@ width: 100%;}
 }
 #wb_uid0
 {
-   color: #005280;
+   color: #000000;
 }

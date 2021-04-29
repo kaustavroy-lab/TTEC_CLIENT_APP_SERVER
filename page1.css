@@ -2,7 +2,18 @@
 {
    text-align: center;
 }
+body:before
+{
+   content: "";
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+   background: radial-gradient(circle, #FFD700 0%, #D7B740 100%);
+}
 body
 {
-   background-color: #FFFFFF;
+   background-color: #D7B740;
 }

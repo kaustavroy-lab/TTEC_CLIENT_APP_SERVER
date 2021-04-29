@@ -1,7 +1,7 @@
 body
 {
-   background-color: #FFFFFF;
-   background-image: url(fbg2.jpeg);
+   background-color: #D7B740;
+   background-image: url(images/TTEC_App_Background.jpg);
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -16,12 +16,12 @@ body
 }
 a
 {
-   color: #FF0042;
+   color: #000000;
    text-decoration: none;
 }
 a:active
 {
-   color: #000000;
+   color: #FF0042;
 }
 a:hover
 {
@@ -126,9 +126,10 @@ input:focus, textarea:focus, select:focus
 {
    background-color: transparent;
    background-image: url(images/register_indexLayer2_bkgrnd.png);
-   background-repeat: repeat;
+   background-repeat: no-repeat;
    background-position: left top;
-   border: 2px solid #0080FF;
+   background-size: 100% 100%;
+   border: 2px solid #000000;
    border-radius: 10px;
    box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
    margin: 0;
@@ -200,12 +201,12 @@ input:focus, textarea:focus, select:focus
 {
    min-height: 16px;
    padding: 15px 15px 15px 15px;
-   border-bottom: 1px solid #0080FF;
+   border-bottom: 1px solid #000000;
 }
 #indexLayer2 .modal-footer
 {
    padding: 15px 15px 15px 15px;
-   border-top: 1px solid #0080FF;
+   border-top: 1px solid #000000;
 }
 #indexLayer2 .modal-body
 {
@@ -219,7 +220,7 @@ input:focus, textarea:focus, select:focus
    font-size: 21px;
    font-weight: 700;
    line-height: 1;
-   color: #0080FF;
+   color: #000000;
    text-shadow: 0px 1px 0px #fff;
    opacity: 0.5;
    -webkit-appearance: none;
@@ -259,7 +260,7 @@ input:focus, textarea:focus, select:focus
 }
 #indexLayer2 .modal-title
 {
-   color: #0080FF;
+   color: #000000;
    font-size: 16px;
    font-weight: 500;
    margin: 0;
@@ -278,7 +279,7 @@ input:focus, textarea:focus, select:focus
 }
 #indexEditbox2
 {
-   border: 1px solid #FF0042;
+   border: 1px solid #000000;
    border-radius: 10px;
    background-color: #FFFFFF;
    background-image: none;
@@ -301,7 +302,7 @@ input:focus, textarea:focus, select:focus
 }
 #indexEditbox3
 {
-   border: 1px solid #FF0042;
+   border: 1px solid #000000;
    border-radius: 10px;
    background-color: #FFFFFF;
    background-image: none;
@@ -354,7 +355,7 @@ input:focus, textarea:focus, select:focus
 }
 #indexEditbox4
 {
-   border: 1px solid #FF0042;
+   border: 1px solid #000000;
    border-radius: 10px;
    background-color: #FFFFFF;
    background-image: none;
@@ -386,7 +387,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_indexText3
 {
-   color: #CC0000;
+   color: #000000;
    font-family: "Reggae One";
    font-weight: normal;
    font-size: 19px;
@@ -397,7 +398,7 @@ input:focus, textarea:focus, select:focus
 }
 #indexEditbox1
 {
-   border: 1px solid #FF0042;
+   border: 1px solid #000000;
    border-radius: 10px;
    background-color: #FFFFFF;
    background-image: none;
@@ -420,11 +421,11 @@ input:focus, textarea:focus, select:focus
 }
 #indexButton2
 {
-   border: 2px solid #FF5757;
+   border: 2px solid #000000;
    border-radius: 10px;
-   background-color: #FFC000;
-   background-image: none;
-   color: #FFFFFF;
+   background-color: #FFD700;
+   background: linear-gradient(to top, #FFD700 0%, #C0A000 100%);
+   color: #000000;
    box-shadow: 0px 0px 3px #7F7F7F;
    font-family: "Reggae One";
    font-weight: bold;
@@ -499,5 +500,5 @@ input:focus, textarea:focus, select:focus
 }
 #wb_uid0
 {
-   color: #CC0000;
+   color: #000000;
 }
