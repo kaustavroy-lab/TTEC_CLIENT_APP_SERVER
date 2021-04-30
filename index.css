@@ -1,11 +1,11 @@
+html, body, #container
+{
+   width: 100%;
+   height: 100%;
+}
 body
 {
-   background-color: #D7B740;
-   background-image: url(images/TTEC_App_Background.jpg);
-   background-attachment: fixed;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
+   background-color: #FFFFFF;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -41,155 +41,6 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    z-index: 99999;
 }
-#wb_indexLayoutGrid1
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: none;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-}
-#indexLayoutGrid1
-{
-   box-sizing: border-box;
-   padding: 70px 15px 0px 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#indexLayoutGrid1 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#indexLayoutGrid1 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#indexLayoutGrid1 > .row > .col-1
-{
-   float: left;
-}
-#indexLayoutGrid1 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: center;
-}
-#indexLayoutGrid1:before,
-#indexLayoutGrid1:after,
-#indexLayoutGrid1 .row:before,
-#indexLayoutGrid1 .row:after
-{
-   display: table;
-   content: " ";
-}
-#indexLayoutGrid1:after,
-#indexLayoutGrid1 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#indexLayoutGrid1 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#indexInlineFrame1
-{
-   border: 1px solid #0563C1;
-   margin: 30px 0px 0px 0px;
-}
-#indexInlineFrame1
-{
-   display: block;
-   float: left;
-   width: 100%;
-   height: 416px;
-   vertical-align: top;
-}
-#wb_page2LayoutGrid1
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-}
-#page2LayoutGrid1
-{
-   box-sizing: border-box;
-   padding: 20px 15px 0px 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#page2LayoutGrid1 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#page2LayoutGrid1 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#page2LayoutGrid1 > .row > .col-1
-{
-   float: left;
-}
-#page2LayoutGrid1 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: center;
-}
-#page2LayoutGrid1:before,
-#page2LayoutGrid1:after,
-#page2LayoutGrid1 .row:before,
-#page2LayoutGrid1 .row:after
-{
-   display: table;
-   content: " ";
-}
-#page2LayoutGrid1:after,
-#page2LayoutGrid1 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#page2LayoutGrid1 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
 #wb_page2Image1
 {
    margin: 0;
@@ -221,7 +72,7 @@ input:focus, textarea:focus, select:focus
 #page2LayoutGrid3
 {
    box-sizing: border-box;
-   padding: 120px 15px 0px 15px;
+   padding: 0px 15px 0px 15px;
    margin-right: auto;
    margin-left: auto;
 }
@@ -493,6 +344,94 @@ width: 100%;}
    margin: 0;
    box-sizing: border-box;
 width: 100%;}
+#indexLayer1
+{
+   background-color: transparent;
+   background-image: url(images/TTEC_App_Background.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   padding: 0;
+   margin: 0;
+}
+#indexLayer1
+{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+#wb_indexLayoutGrid2
+{
+   clear: both;
+   position: fixed;
+   left: 0;
+   top: 0;
+   z-index: 7777;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#indexLayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 20px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#indexLayoutGrid2 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#indexLayoutGrid2 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#indexLayoutGrid2 > .row > .col-1
+{
+   float: left;
+}
+#indexLayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#indexLayoutGrid2:before,
+#indexLayoutGrid2:after,
+#indexLayoutGrid2 .row:before,
+#indexLayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#indexLayoutGrid2:after,
+#indexLayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#indexLayoutGrid2 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
 #wb_page2LayoutGrid2
 {
    clear: both;
@@ -592,26 +531,41 @@ width: 100%;}
 {
    color: #000000;
 }
+#indexLayer1
+{
+   position: relative;
+   text-align: center;
+   width: 100%;
+   height: 100%;
+   float: none;
+   vertical-align: top;
+   display: inline-flex;
+   z-index: 14;
+}
 #page2Button2
 {
    display: inline-block;
    width: 100px;
    height: 37px;
-   z-index: 3;
+   z-index: 6;
 }
 #page2Button3
 {
    display: inline-block;
    width: 103px;
    height: 39px;
-   z-index: 2;
+   z-index: 5;
 }
 #wb_page2Image1
 {
    display: inline-block;
    width: 124px;
    height: 124px;
-   z-index: 1;
+   z-index: 10;
+}
+#indexLayer1-container
+{
+   width: 100%;
 }
 #wb_uid0
 {
