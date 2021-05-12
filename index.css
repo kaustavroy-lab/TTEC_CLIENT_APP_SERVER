@@ -34,7 +34,7 @@ input:focus, textarea:focus, select:focus
 }
 #preloader
 {
-   background: #FFFFFF url("images/windmill.gif") no-repeat center center;
+   background: #D7B740 url("images/TTEC Loading Animation.gif") no-repeat center center;
    bottom: 0;
    position: fixed;
    top: 0;
